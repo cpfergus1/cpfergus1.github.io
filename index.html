@@ -1,3 +1,119 @@
 ---
 layout: default
 ---
+<div class = "home">
+  <div class="full-hero hero-home">
+    <div class="hero-content">
+      <h1>Lorem Ipsum</h1>
+      <ul class="social-list">
+        <li>
+          <a href="https://example.com/" class="social-link">Fb</a>
+        </li>
+        <li>
+          <a href="https://example.com/" class="social-link">Tw</a>
+        </li>
+        <li>
+          <a href="https://example.com/" class="social-link">Gh</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  <div class="home-callout">
+    <h1 class="callout-title">This is the story</h1>
+    <div class="callout-copy">
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ex neque, sodales non dapibus vitae, aliquam lobortis sem.
+        Donec accumsan <em>tempor dui eget finibus</em>. Nunc tincidunt, nibh faucibus posuere iaculis, ante nibh rhoncus urna, ut
+        posuere felis ante vel risus. Sed ac quam convallis eros ultrices pulvinar. Fusce id cursus orci. Nullam mollis lobortis
+        tortor, non ornare mi suscipit ut. Vivamus sem tortor, aliquam a aliquet nec, lobortis sed ante. Nam in metus dignissim,
+        suscipit sapien non, aliquet elit. Fusce id feugiat est. Aenean feugiat nunc eu nulla aliquet convallis.
+      </p>
+      <p>
+        Fusce ac erat ac mi dictum fermentum. In ultricies ut risus et sodales. Proin odio mi, sodales ac elementum non,
+        fringilla a sem. Etiam consectetur magna elit, sed commodo dui gravida nec. Nullam ut felis at felis tempus elementum at
+        at dui. Aenean ultricies ipsum sollicitudin bibendum auctor. Vivamus laoreet facilisis tellus, eu fringilla arcu
+        molestie quis. Pellentesque eget massa vel est accumsan scelerisque quis scelerisque justo. Etiam nisi dolor, fermentum
+        eget enim ut, porta cursus libero. Duis facilisis porttitor est, in ultricies ligula congue sed.
+        <a href="/">Quisque ac ornare nisl, nec rhoncus diam</a> now.
+      </p>
+      <h3>Background</h3>
+      <p>
+        Praesent a congue dolor. Nullam tempus porta lobortis. Donec eu nibh auctor, finibus ante vel, rutrum augue.
+        Pellentesque porttitor,
+        <a href="/">eros sed laoreet tincidunt, lacus nisi porttitor nulla</a>,
+        a rutrum lacus mauris ut odio. Morbi sapien elit, <a href='/'>bibendum a tortor a, fringilla auctor justo</a>.
+        Quisque tristique pulvinar mattis. Maecenas blandit commodo nibh non rutrum.
+        In at tortor nec purus finibus viverra.<a href="/"><em>Aenean ex ipsum, aliquet vel justo non, auctor posuere nisi.
+        </em></a>Nullam mattis erat in lectus scelerisque, non facilisis eros interdum.
+        <strong>M</strong>auris <strong>n</strong>ec
+        <strong>s</strong>em, arcu. Etiam dictum, odio sit amet elementum sollicitudin, dui mauris consectetur sapien,
+        id ultricies elit eros sit amet enim.
+      </p>
+    </div>
+  </div>
+  <div class="home-section">
+    <h4>Most recent post</h4>
+    <div class="blog-posts">
+      <header class="post-header">
+        <h2>
+          <a href="{{ site.posts.first.url }}">
+            {{ site.posts.first.title }}</a>
+        </h2>
+        <div class="post-byline">
+          <img src="{{ site.posts.first.gravatar }}">
+          <a href="{{ site.posts.first.authorTwitter }}" class="social-link">Tw</a>
+          by: {{ site.posts.first.author }}
+          <span> - {{ site.posts.first.date | date: '%B %d, %Y' }}</span>
+        </div>
+      </header>
+      <div class="posts-image" style="background-image:url({{ site.posts.first.postHero }})"></div>
+      {{ site.posts.first.excerpt }}
+    </div>
+  </div>
+  <div class='home-section'>
+    <h2>I'm an h2</h2>
+    <div class="bio-wrapper">
+      <div class="bio-box">
+        <img src="http://placekitten.com/g/400/400" alt="kitten">
+        <h3>the name</h3>
+        <a href="https://example.com/" class="social-link">Tw</a>
+        <div class="bio-copy">
+          <p>
+            akjhfkdhjkfdgfdkgjafdkhgfdjkghafdkjg
+            akjhfkdhjkfdgfdkgjafdkhgfdjkghafdkjga
+            akjhfkdhjkfdgfdkgjafdkhgfdjkghafdkjga
+            akjhfkdhjkfdgfdkgjafdkhgfdjkghafdkjga
+            akjhfkdhjkfdgfdkgjafdkhgfdjkghafdkjga
+            akjhfkdhjkfdgfdkgjafdkhgfdjkghafdkjga
+            akjhfkdhjkfdgfdkgjafdkhgfdjkghafdkjga
+            akjhfkdhjkfdgfdkgjafdkhgfdjkghafdkjga
+          </p>
+        </div>
+      </div>
+      <div class="bio-box">
+        <img src="http://placekitten.com/g/400/400" alt="kitten">
+        <h3>the name2</h3>
+        <a href="https://example.com/" class="social-link">Tw</a>
+        <div class="bio-copy">
+          <p>dkfajhrkg</p>
+        </div>
+      </div>
+      <div class="bio-box">
+        <img src="http://placekitten.com/g/400/400" alt="kitten">
+        <h3>the name3</h3>
+        <a href="https://example.com/" class="social-link">Tw</a>
+        <div class="bio-copy">
+          <p>sajkrgrgrignbhirhgi</p>
+        </div>
+      </div>
+      <div class="bio-box">
+        <img src="http://placekitten.com/g/400/400" alt="kitten">
+        <h3>the name4</h3>
+        <a href="https://example.com/" class="social-link">Tw</a>
+        <div class="bio-copy">
+          <p>adsm,nsdmg,ngrejbgerjb</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
